@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="android-application-update" 
+    version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>AppUpdate</name>
+  <author>M.Ismail</author>
+  <description>
+      This plugin using google play services to connect with native location provider. 
+    </description>
+    <repo>https://github.com/Mohamedismail77/Android-Application-update.git</repo>
+    <issue>https://github.com/Mohamedismail77/Android-Application-update.git/issue</issue>
+    <keywords>android, update, appstore, forcedUpdate</keywords>
+    <js-module name="AppUpdate" src="www/AppUpdate.js">
+      <clobbers target="AppUpdate" /></js-module>
+      <platform name="android">
+        <!--dependencies goes here-->
+        <config-file parent="/*" target="res/xml/config.xml">
+            <!-- feature is the native class for android -->
+            <feature name="AppUpdate">
+                <param name="android-package" value="com.cordova.plugin.app.update.AppUpdate" />        
+            </feature>
+        </config-file>
+        <source-file src="src/android/AppUpdate.java" target-dir="src/com/cordova/plugin/app/update"/>
+    </platform>
+  </plugin>

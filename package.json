@@ -1,0 +1,27 @@
+{
+  "name": "android-application-update",
+  "version": "1.0.0",
+  "description": "\nThis plugin check if update is available or not.",
+  "cordova": {
+    "id": "android-application-update",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mohamedismail77/Android-Application-update.git"
+  },
+  "keywords": [
+    "native",
+    "android",
+    "update",
+    "playStore"
+  ],
+  "author": "M.Ismail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohamedismail77/Android-Application-update.git"
+  },
+  "homepage": "https://github.com/Mohamedismail77/Android-Application-update.git#readme"
+}
