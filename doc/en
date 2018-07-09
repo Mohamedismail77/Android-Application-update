@@ -41,7 +41,7 @@ $ Checking for update
 
 $ How to install
 
-    $cordova plugin add 
+    $cordova plugin add android-application-update
 
 
 

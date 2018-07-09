@@ -65,7 +65,7 @@ onsuccess = function(state){
 
 ## How to install
 ```bash
-    cordova plugin add 
+    cordova plugin add android-application-update
 ```
 
 
