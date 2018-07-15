@@ -42,8 +42,8 @@
 1- Response body:
 ```json
     {
-        "version": 1 //Integer => version code
-        "update-flag": true //<boolean ? forcedupdate : optional>
+        "version": "Integer / version code"
+        "update-flag":  "<boolean ? forcedupdate : optional>"
     }
 ```
 2- PHP Example:
