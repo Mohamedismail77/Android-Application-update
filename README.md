@@ -42,7 +42,7 @@
 1- Response body:
 ```json
     {
-        "version": "Integer / version code"
+        "version": "Integer / version code",
         "update-flag":  "<boolean ? forcedupdate : optional>"
     }
 ```
