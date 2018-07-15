@@ -38,7 +38,21 @@
         //your error handler goes here
     }
 ```
-
+## Server side implementation:
+1- Response body:
+```json
+    {
+        "version": <Integer/version code>
+        "update-flag": <boolean ? forcedupdate : optional>
+    }
+```
+2- PHP Example:
+```PHP
+    <?PHP
+        $app_data = ["version"=>2, "update-flag"=>false];
+        echo json_encode($app_data);
+    ?> 
+```
 #### Exmaple
 ```javascript
     var update_state = false;
